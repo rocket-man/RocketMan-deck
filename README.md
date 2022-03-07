@@ -1,2 +1,2 @@
-# https://rocket-man.github.io/RocketMan-deck/
+# https://rocket-man.github.io/deck-blog/
 Github Page
