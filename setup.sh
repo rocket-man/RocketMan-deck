@@ -13,7 +13,11 @@ sudo snap install code --classic
 sudo snap install aws-cli --classic
 sudo snap install google-cloud-sdk --classic
 sudo snap install beekeeper-studio
-sudo apt install postgresql-12 postgresql-client-12 libpq-dev postgresql-server-dev-12
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql-13 postgresql-client-13 libpq-dev postgresql-server-dev-13 postgresql-contrib
 
 sudo npm install -g @angular/cli
 sudo npm install -g bootstrap@5.0.0
