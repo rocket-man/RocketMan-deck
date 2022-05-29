@@ -13,3 +13,13 @@ sudo docker pull docker pull openjdk:jdk-buster
 sudo docker pull mariadb:latest
 
 ##Github setup
+
+
+##Postgres Setup
+sudo systemctl start postgresql.service
+sudo -u postgres createuser --interactive  ##rocketman
+sudo -u postgres createdb storeroom
+sudo systemctl status postgresql
+psql -c "ALTER USER rocketman WITH PASSWORD 'password';"
+##get prompt for alter-role
+sudo systemctl restart postgresql
