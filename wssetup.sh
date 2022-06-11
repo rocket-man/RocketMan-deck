@@ -24,5 +24,8 @@ psql -c "ALTER USER rocketman WITH PASSWORD 'password';"
 ##get prompt for alter-role
 sudo systemctl restart postgresql
 
-##gcloud ADC
+##gcloud ADC -- this autoconfigures ADC credentials from gcloud SDK to all environments (STS, VSCode etc)
 /home/rocketman/.cache/cloud-code/installer/google-cloud-sdk/bin/gcloud auth application-default login --quiet
+
+##aws-access-id and aws secret, along with region can be added
+aws configure
