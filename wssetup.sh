@@ -8,8 +8,11 @@ sudo docker pull centos
 sudo docker pull alpine
 sudo docker pull google/cloud-sdk:latest
 sudo docker pull bitnami/kubectl:latest
-sudo docker pull docker pull openjdk:jdk-buster
 sudo docker pull mariadb:latest
+sudo docker pull redis
+sudo docker pull bitnami/kafka
+sudo docker pull jenkins/jenkins
+sudo docker pull openjdk:jdk-buster
 sudo docker pull kalilinux/kali-rolling
 
 ##Github setup
