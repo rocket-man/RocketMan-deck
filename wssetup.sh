@@ -6,11 +6,11 @@ sudo docker pull amazon/aws-cli
 sudo docker pull mcr.microsoft.com/azure-cli
 sudo docker pull centos
 sudo docker pull alpine
-sudo docker pull kalilinux/kali-rolling
 sudo docker pull google/cloud-sdk:latest
 sudo docker pull bitnami/kubectl:latest
 sudo docker pull docker pull openjdk:jdk-buster
 sudo docker pull mariadb:latest
+sudo docker pull kalilinux/kali-rolling
 
 ##Github setup
 
